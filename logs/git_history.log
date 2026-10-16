@@ -1,0 +1,1 @@
+CHUA CO DU LIEU: Chay git log --graph --pretty=format:"%h - %an (%ad): %s" > logs/git_history.log trong repo Git cua ban.

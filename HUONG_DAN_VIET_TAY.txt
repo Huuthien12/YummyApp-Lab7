@@ -1,0 +1,6 @@
+YEU CAU BAT BUOC: Viet tay 4 trang, moi trang co ho ten, MSSV, ngay va chu ky that.
+Trang 1: Ve 6 khoi Git Push -> Checkout -> Setup Python 3.11 -> Install Dependencies -> Execute Unit Tests -> Quality Gate.
+Trang 2: Ke bang 4 cot: Test case | Ham | Mocking | Assert. 7 hang: promo online GIAM10=90000; offline ConnectionError; NEW_OS_ONLY OS15=80000; OS14 ValueError; GPS (10,105) co 2 nha hang; (20,110) []; GPS loi tra ve thong bao.
+Trang 3: 2.1 Linter truoc test de fail-fast, tranh ton tai nguyen. 2.2 coverage --fail-under=80 tra exit code khac 0 khi duoi nguong, CI bao fail. 2.3 -m hien dong ma chua duoc thuc thi de viet them test.
+Trang 4: 3.1 Flaky test: ket qua bat on giua cac lan chay cung dieu kien; sai lech moi truong: thieu dependencies, sai version/config. 3.2 Pin version de tai lap va tranh thay doi bat ngo. 3.3 Tao branch -> cap nhat version -> chay lint/test/coverage -> mo PR -> review/CI -> merge va theo doi/rollback.
+Chup/scan thanh MinhChung_VietTay_2312753.pdf. Khong su dung van ban danh may thay cho ban viet tay.
